@@ -1,6 +1,25 @@
+import React from 'react'
+import './App.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Products from './pages/Products'
+import Contact from './pages/Contact'
+import Header from './components/Header'
+import Footer from './components/Footer'
+
 function App() {
   return (
-    <h1>Hello World!</h1>
+    <div className="App">
+    <BrowserRouter>
+    <Header />
+      <div className="content">
+        <Routes>
+          <Route path='/' element={<Products />} />
+          <Route path='/contact' element={<Contact />} />
+        </Routes>
+      </div>
+      <Footer />
+    </BrowserRouter>
+    </div>
   );
 }
 
