@@ -27,7 +27,7 @@ export default function Product(props) {
   }, [id])
 
   if (loading) {
-    return <div>Carregando...</div>
+    return <div className="loading"></div>
   }
   if (error) {
     return <p>{error}</p>
@@ -41,14 +41,18 @@ export default function Product(props) {
         title={`Gasgets | ${product.nome}`}
         description={`Dados do produto - ${product.nome}`}
       />
-      {
-        product.fotos.map((picture) =>
-          <img key={picture.src} src={picture.src} alt={picture.titulo}/>
-        )
-      }
-      <div>{product.nome}</div>
-      <span className={styles.price}>R$ {product.preco}</span>
-      <p className={styles.descricao}>{product.descricao}</p>
+      <div>
+        {
+          product.fotos.map((picture) =>
+            <img key={picture.src} src={picture.src} alt={picture.titulo}/>
+          )
+        }
+      </div>
+      <div>
+        <h1>{product.nome}</h1>
+        <span className={styles.price}>R$ {product.preco}</span>
+        <p className={styles.descricao}>{product.descricao}</p>
+      </div>
     </section>
   )
 }
