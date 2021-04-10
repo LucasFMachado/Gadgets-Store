@@ -1,102 +1,118 @@
-[
-  {
-    "id": "notebook",
-    "nome": "Notebook",
-    "preco": 2999,
-    "dsescricao": "Notebook Expert X30 8ª Intel Core I5 8GB 1TB LED HD 15,6'' W10 Cinza Titânio - Samsung",
-    "estoque": 12,
-    "img": "./api/images/notebook/notebook.jpg",
-    "avaliacoes": [
-      {
-        "nome": "Lucas",
-        "estrelas": 5,
-        "descricao": "Gostei muito do produto. Atendeu todas as minhas necessidades!"
-      },
-      {
-        "nome": "João",
-        "estrelas": 4,
-        "descricao": "Produto muito bom, mas poderia ser um pouco mais barato."
-      }
-    ]
-  },
-  {
-    "id": "smartphone",
-    "nome": "Smartphone",
-    "preco": 1299,
-    "descricao": "Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a necessidade de renovação processual causa impacto indireto na reavaliação do orçamento setorial.",
-    "estoque": 3,
-    "img": "./api/images/smartphone/smartphone.jpg",
-    "avaliacoes": [
-      {
-        "nome": "Rogério",
-        "estrelas": 5,
-        "descricao": "Gostei muito do produto, atendeu todas as minhas necessidades."
-      },
-      {
-        "nome": "Nathália",
-        "estrelas": 4,
-        "descricao": "Gostei, mas o preço poderia ser melhor."
-      }
-    ]
-  },
-  {
-    "id": "tablet",
-    "nome": "Tablet",
-    "preco": 899,
-    "descricao": "Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a necessidade de renovação processual causa impacto indireto na reavaliação do orçamento setorial.",
-    "estoque": 2,
-    "img": "./api/produtos/tablet/tablet.jpg",
-    "avaliacoes": [
-      {
-        "nome": "Rogério",
-        "estrelas": 5,
-        "descricao": "Gostei muito do produto, atendeu todas as minhas necessidades."
-      },
-      {
-        "nome": "Nathália",
-        "estrelas": 4,
-        "descricao": "Gostei, mas o preço poderia ser melhor."
-      }
-    ]
-  },
-  {
-    "id": "smartwatch",
-    "nome": "Smartwatch",
-    "preco": 1199,
-    "descricao": "Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a necessidade de renovação processual causa impacto indireto na reavaliação do orçamento setorial.",
-    "estoque": 5,
-    "img": "./api/produtos/smartwatch/smartwatch.jpg",
-    "avaliacoes": [
-      {
-        "nome": "Rogério",
-        "estrelas": 5,
-        "descricao": "Gostei muito do produto, atendeu todas as minhas necessidades."
-      },
-      {
-        "nome": "Nathália",
-        "estrelas": 4,
-        "descricao": "Gostei, mas o preço poderia ser melhor."
-      }
-    ]
-  },
-  {
-    "id": "speaker",
-    "nome": "Speaker",
-    "preco": 599,
-    "descricao": "Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a necessidade de renovação processual causa impacto indireto na reavaliação do orçamento setorial.",
-    "estoque": 3,
-    "img": "./api/produtos/speaker/speaker.jpg",
-    "avaliacoes": [
-      {
-        "nome": "Rogério",
-        "estrelas": 5,
-        "descricao": "Gostei muito do produto, atendeu todas as minhas necessidades."
-      },
-      {
-        "nome": "Nathália",
-        "estrelas": 4,
-        "descricao": "Gostei, mas o preço poderia ser melhor."
-      }
-    ]
-  }
-]
+{
+  "products": [
+    {
+      "id": "notebook",
+      "name": "Notebook",
+      "price": 2999,
+      "description": "Notebook Expert X30 8ª Intel Core I5 8GB 1TB LED HD 15,6'' W10 Cinza Titânio - Samsung",
+      "image": "./api/images/notebook/notebook.jpeg",
+      "score": [
+        {
+          "name": "Lucas",
+          "stars": 5,
+          "description": "Gostei muito do produto. Atendeu todas as minhas necessidades!"
+        },
+        {
+          "name": "João",
+          "stars": 4,
+          "description": "Produto muito bom, mas poderia ser um pouco mais barato."
+        }
+      ]
+    },
+    {
+      "id": "smartphone",
+      "name": "Smartphone",
+      "price": 1299,
+      "description": "Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a necessidade de renovação processual causa impacto indireto na reavaliação do orçamento setorial.",
+      "image": "./api/images/smartphone/smartphone.jpeg",
+      "score": [
+        {
+          "name": "Rogério",
+          "stars": 5,
+          "description": "Gostei muito do produto, atendeu todas as minhas necessidades."
+        },
+        {
+          "name": "Nathália",
+          "stars": 4,
+          "description": "Gostei, mas o preço poderia ser melhor."
+        }
+      ]
+    },
+    {
+      "id": "camera",
+      "name": "Câmera",
+      "price": 2199,
+      "description": "Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a necessidade de renovação processual causa impacto indireto na reavaliação do orçamento setorial.",
+      "image": "./api/images/smartwatch/smartwatch.jpeg",
+      "score": [
+        {
+          "name": "Rogério",
+          "stars": 5,
+          "description": "Gostei muito do produto, atendeu todas as minhas necessidades."
+        },
+        {
+          "name": "Nathália",
+          "stars": 4,
+          "description": "Gostei, mas o preço poderia ser melhor."
+        }
+      ]
+    },
+    {
+      "id": "tablet",
+      "name": "Tablet",
+      "price": 899,
+      "description": "Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a necessidade de renovação processual causa impacto indireto na reavaliação do orçamento setorial.",
+      "image": "./api/images/tablet/tablet.jpeg",
+      "score": [
+        {
+          "name": "Rogério",
+          "stars": 5,
+          "description": "Gostei muito do produto, atendeu todas as minhas necessidades."
+        },
+        {
+          "name": "Nathália",
+          "stars": 4,
+          "description": "Gostei, mas o preço poderia ser melhor."
+        }
+      ]
+    },
+    {
+      "id": "smartwatch",
+      "name": "Smartwatch",
+      "price": 1199,
+      "description": "Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a necessidade de renovação processual causa impacto indireto na reavaliação do orçamento setorial.",
+      "image": "./api/images/smartwatch/smartwatch.jpeg",
+      "score": [
+        {
+          "name": "Rogério",
+          "stars": 5,
+          "description": "Gostei muito do produto, atendeu todas as minhas necessidades."
+        },
+        {
+          "name": "Nathália",
+          "stars": 4,
+          "description": "Gostei, mas o preço poderia ser melhor."
+        }
+      ]
+    },
+    {
+      "id": "speaker",
+      "name": "Speaker",
+      "price": 599,
+      "description": "Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a necessidade de renovação processual causa impacto indireto na reavaliação do orçamento setorial.",
+      "image": "./api/images/speaker/speaker.jpeg",
+      "score": [
+        {
+          "name": "Rogério",
+          "stars": 5,
+          "description": "Gostei muito do produto, atendeu todas as minhas necessidades."
+        },
+        {
+          "name": "Nathália",
+          "stars": 4,
+          "description": "Gostei, mas o preço poderia ser melhor."
+        }
+      ]
+    }
+  ]
+}
