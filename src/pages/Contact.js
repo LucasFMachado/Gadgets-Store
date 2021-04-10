@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './styles/Contact.module.css'
-import contactImg from '../assets/images/programmer.jpeg'
+import contact from '../assets/images/contact.jpg'
 import Head from '../components/Head'
 
 export default function Contact() {
@@ -10,7 +10,7 @@ export default function Contact() {
         title="Gasgets | Contato"
         description="Entre em contato conosco"
       />
-      <img src={contactImg} alt="Máquina de escrever" />
+      <img src={contact} alt="Máquina de escrever" />
       <div>
       <h1>Entre em contato</h1>
       <ul className={styles.informations}>
