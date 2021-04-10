@@ -8,7 +8,8 @@ export default function Products() {
 
   useEffect(() => {
     async function getProducts() {
-      await fetch('https://ranekapi.origamid.dev/json/api/produto')
+      // await fetch('https://ranekapi.origamid.dev/json/api/produto')
+      await fetch('https://my-json-server.typicode.com/LucasFMachado/GadgetsStore/products')
         .then(r => r.json())
         .then(json => setProducts(json))
     }
@@ -26,12 +27,15 @@ export default function Products() {
         description="Página inicial do site Gasgets Store"
       />
       {
-        products.map(product => (
+        products.map(product => {
+          console.warn('psdad', product)
+          return (
           <Link to={`product/${product.id}`} key={product.id}>
-            <img src={product.fotos[0].src} alt={product.fotos[0].titulo} />
-            <h1 className={styles.name}>{product.nome}</h1>
+            <img src={product.image} alt={product.name} />
+            <h1 className={styles.name}>{product.name}</h1>
           </Link>
-        ))
+        )
+          })
       }
     </section>
   )

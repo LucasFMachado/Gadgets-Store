@@ -23,7 +23,8 @@ export default function Product(props) {
         setLoading(false)
       }
     }
-    getProductData(`https://ranekapi.origamid.dev/json/api/produto/${id}`)
+    // getProductData(`https://ranekapi.origamid.dev/json/api/produto/${id}`)
+    getProductData(`https://my-json-server.typicode.com/LucasFMachado/GadgetsStore/products/produto/${id}`)
   }, [id])
 
   if (loading) {
@@ -38,20 +39,16 @@ export default function Product(props) {
   return (
     <section className={`${styles.product} animeLeft`}>
       <Head
-        title={`Gasgets | ${product.nome}`}
-        description={`Dados do produto - ${product.nome}`}
+        title={`Gasgets | ${product.name}`}
+        description={`Dados do produto - ${product.name}`}
       />
       <div>
-        {
-          product.fotos.map((picture) =>
-            <img key={picture.src} src={picture.src} alt={picture.titulo}/>
-          )
-        }
+        <img key={product.image} src={product.image} alt={product.name}/>
       </div>
       <div>
-        <h1>{product.nome}</h1>
-        <span className={styles.price}>R$ {product.preco}</span>
-        <p className={styles.descricao}>{product.descricao}</p>
+        <h1>{product.name}</h1>
+        <span className={styles.price}>R$ {product.price}</span>
+        <p className={styles.description}>{product.description}</p>
       </div>
     </section>
   )

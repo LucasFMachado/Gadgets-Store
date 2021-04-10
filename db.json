@@ -5,7 +5,7 @@
       "name": "Notebook",
       "price": 2999,
       "description": "Notebook Expert X30 8ª Intel Core I5 8GB 1TB LED HD 15,6'' W10 Cinza Titânio - Samsung",
-      "image": "./api/images/notebook/notebook.jpeg",
+      "image": "https://ranekapi.origamid.dev/wp-content/uploads/2019/03/notebook-2.jpg",
       "score": [
         {
           "name": "Lucas",
@@ -24,7 +24,7 @@
       "name": "Smartphone",
       "price": 1299,
       "description": "Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a necessidade de renovação processual causa impacto indireto na reavaliação do orçamento setorial.",
-      "image": "./api/images/smartphone/smartphone.jpeg",
+      "image": "https://ranekapi.origamid.dev/wp-content/uploads/2019/03/smartphone-1.jpg",
       "score": [
         {
           "name": "Rogério",
@@ -43,7 +43,7 @@
       "name": "Câmera",
       "price": 2199,
       "description": "Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a necessidade de renovação processual causa impacto indireto na reavaliação do orçamento setorial.",
-      "image": "./api/images/smartwatch/smartwatch.jpeg",
+      "image": "https://ranekapi.origamid.dev/wp-content/uploads/2019/03/camera.jpg",
       "score": [
         {
           "name": "Rogério",
@@ -62,7 +62,7 @@
       "name": "Tablet",
       "price": 899,
       "description": "Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a necessidade de renovação processual causa impacto indireto na reavaliação do orçamento setorial.",
-      "image": "./api/images/tablet/tablet.jpeg",
+      "image": "https://ranekapi.origamid.dev/wp-content/uploads/2019/03/tablet-1.jpg",
       "score": [
         {
           "name": "Rogério",
@@ -81,7 +81,7 @@
       "name": "Smartwatch",
       "price": 1199,
       "description": "Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a necessidade de renovação processual causa impacto indireto na reavaliação do orçamento setorial.",
-      "image": "./api/images/smartwatch/smartwatch.jpeg",
+      "image": "https://ranekapi.origamid.dev/wp-content/uploads/2019/03/smartwatch-1.jpg",
       "score": [
         {
           "name": "Rogério",
@@ -100,7 +100,7 @@
       "name": "Speaker",
       "price": 599,
       "description": "Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a necessidade de renovação processual causa impacto indireto na reavaliação do orçamento setorial.",
-      "image": "./api/images/speaker/speaker.jpeg",
+      "image": "https://ranekapi.origamid.dev/wp-content/uploads/2019/03/speaker.jpg",
       "score": [
         {
           "name": "Rogério",
