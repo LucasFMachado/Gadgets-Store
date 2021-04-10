@@ -11,4 +11,5 @@ Para executar o projeto basta clonar o mesmo e, na pasta dele executar o comando
 
 ## API utilizada
 Para a consulta e informações dos produtos na página, foi elaborada uma uma Fake API REST simples, utilizando o **My JSON Server** (https://my-json-server.typicode.com). \
-A API possui poucos dados, apenas para garantir a consulta dos produtos e o funcionamento do projeto. A mesma pode ser verificada através do link: https://my-json-server.typicode.com/LucasFMachado/GadgetsStore.
+A API possui poucos dados, apenas para garantir a consulta dos produtos e o funcionamento do projeto. \
+A mesma pode ser verificada através do link: https://my-json-server.typicode.com/LucasFMachado/GadgetsStore.
