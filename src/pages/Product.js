@@ -23,8 +23,7 @@ export default function Product(props) {
         setLoading(false)
       }
     }
-    // getProductData(`https://ranekapi.origamid.dev/json/api/produto/${id}`)
-    getProductData(`https://my-json-server.typicode.com/LucasFMachado/GadgetsStore/products/produto/${id}`)
+    getProductData(`https://my-json-server.typicode.com/LucasFMachado/GadgetsStore/products/${id}`)
   }, [id])
 
   if (loading) {
